@@ -394,6 +394,8 @@ p.instructions {
     width: 50%;
     font-size: 40px;
     line-height: 100px;
+    position: absolute;
+    
   }
 
   .flex-container {
@@ -401,6 +403,9 @@ p.instructions {
     margin: 0 auto;
     width: 60%;
     padding: 25% 0 0 0;
+    position: absolute;
+    right: 10%;
+    left: 10%;
   }
 
   .intro-text {
