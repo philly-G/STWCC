@@ -116,6 +116,7 @@ li.nav a:hover {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 
 /* Left box under title (designed for mobile first) */
@@ -406,7 +407,7 @@ p.instructions {
     width: 70%;
     font-size: 20px;
     line-height: 1.5em;
-    padding: 20px;
+    padding: 35px;
   }
 
   .textSection {
