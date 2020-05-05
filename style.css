@@ -134,7 +134,7 @@ li.nav a:hover {
   display: flex;
   margin: 0 auto;
   position: absolute;
-  padding: 50% 0 0 0;
+  padding: 10px;
   align-items: center;
   left: 10%;
   right: 10%;
@@ -212,22 +212,31 @@ li.nav a:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
 }
 
 /* Left box under title; item in .flex-container (designed for mobile first) */
 .left-container {
   padding: 35px;
-  margin: 5px;
+  margin: 5%;
+  font-size: 40px;
   flex-grow: 1;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
   background-color: #0d9c90;
+  
+  /*
+  margin: 5%;
+  font-size: 40px;
+  color: white;
+  flex-grow: 1;
+  */
 }
 
 /* Right box under title; item in .flex-container (designed for mobile first) */
 .right-container {
   padding: 35px;
-  margin: 5px;
+  margin: 5%;
   flex-grow: 2;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
   background-color: #0d9c90;
@@ -374,28 +383,28 @@ p.instructions {
   /*
   .flex-container {
     padding: 35% 0 0 0;
-  }
-  */
+  }*/
+  
 
   /*------------take-action.html------------*/
   .flex-container-action {
     flex-wrap: nowrap;
   }
-/*
+
   .left-container {
     width: 50%;
     margin-right: 10%;
   }
-  */
+  
 }
 
-/* IF THE SCREEN IS ~~1250 OR MORE~~ IMPLEMENT THESE RULES */
+/* IF THE SCREEN IS ~~1000 OR MORE~~ IMPLEMENT THESE RULES */
 @media only screen and (min-width: 1000px) {
   /*
   .flex-container {
     padding: 25% 0 0 0;
-  }
-  */
+  }*/
+  
 }
 
 /* IF THE SCREEN IS ~~1250 OR MORE~~ IMPLEMENT THESE RULES */
@@ -414,7 +423,7 @@ p.instructions {
   .main-message {
     height: 75%;
   }
-
+/*
   .flex-container {
     flex-wrap: nowrap;
     margin: 0 auto;
@@ -423,7 +432,7 @@ p.instructions {
     position: absolute;
     right: 10%;
     left: 10%;
-    /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
+    /*border-style: dotted;*/ /*Uncomment to see the outline of the container
   }
 
   .intro-text {
@@ -435,7 +444,7 @@ p.instructions {
 
   .subtitle {
     padding: 35px;
-  }
+  }*/
 
   .textSection {
     /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
