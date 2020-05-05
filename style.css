@@ -107,54 +107,32 @@ li.nav a:hover {
 
 /* Flexbox container for title and intro text (designed for mobile first) */
 .flex-container {
-  /*
-  width: 90%;
-  margin: 0 auto;
-  padding: 50% 0 0 0;
-  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
-/*
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  */
-  
-  /*
-  display: flex;
-  background-color: #f4364c;
-  margin: 10%;
-  position: absolute;
-  padding: 10px;
-  align-items: center;
-  left: 10%;
-  right: 10%;
-  */
-  
-  display: flex;
+ /*Posi
   margin: 0 auto;
   position: absolute;
   padding: 10px;
   align-items: center;
+  top: 25%;
   left: 10%;
   right: 10%;
-  
+
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  
+
+  background-color: #0169E1;
 }
 
 /* Left box (designed for mobile first) */
 .subtitle {
-  padding: 20px;
-  margin: 5px;
+  padding: 4%;
+  margin: 2%;
   flex-grow: 1;
+
   text-align: center;
-  background-color: #0169E1;
   color: white;
-  padding: 5px;
   font-size: 30px;
   letter-spacing: 10px;
   line-height: 60px;
@@ -163,9 +141,9 @@ li.nav a:hover {
 
 /* Right box (designed for mobile first) */
 .intro-text {
-  padding: 15px;
-  margin: 5px;
-  flex-grow: 1;
+  padding: 6%;
+  margin: 2%;
+  flex-grow: 2;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
   background-color: #0d9c90;
 }
@@ -212,7 +190,6 @@ li.nav a:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
 }
 
@@ -220,24 +197,17 @@ li.nav a:hover {
 .left-container {
   padding: 35px;
   margin: 5%;
-  font-size: 40px;
+  font-size: 16px;
   flex-grow: 1;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
   background-color: #0d9c90;
-  
-  /*
-  margin: 5%;
-  font-size: 40px;
-  color: white;
-  flex-grow: 1;
-  */
 }
 
 /* Right box under title; item in .flex-container (designed for mobile first) */
 .right-container {
   padding: 35px;
   margin: 5%;
-  flex-grow: 2;
+  flex-grow: 1;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
   background-color: #0d9c90;
 }
@@ -370,6 +340,10 @@ p.instructions {
   }
 }
 
+.flex-container {
+  flex-wrap: wrap;
+}
+
 /*------------take-action.html------------*/
 .flex-container-action {
   flex-wrap: wrap;
@@ -380,22 +354,19 @@ p.instructions {
 @media only screen and (min-width: 701px) {
   /*------------index.html------------*/
 
-  /*
   .flex-container {
-    padding: 35% 0 0 0;
-  }*/
-  
+    flex-wrap: nowrap;
+  }
 
   /*------------take-action.html------------*/
   .flex-container-action {
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
   }
 
   .left-container {
     width: 50%;
     margin-right: 10%;
   }
-  
 }
 
 /* IF THE SCREEN IS ~~1000 OR MORE~~ IMPLEMENT THESE RULES */
@@ -404,7 +375,6 @@ p.instructions {
   .flex-container {
     padding: 25% 0 0 0;
   }*/
-  
 }
 
 /* IF THE SCREEN IS ~~1250 OR MORE~~ IMPLEMENT THESE RULES */
@@ -423,28 +393,6 @@ p.instructions {
   .main-message {
     height: 75%;
   }
-/*
-  .flex-container {
-    flex-wrap: nowrap;
-    margin: 0 auto;
-    width: 60%;
-    padding: 20% 0 0 0;
-    position: absolute;
-    right: 10%;
-    left: 10%;
-    /*border-style: dotted;*/ /*Uncomment to see the outline of the container
-  }
-
-  .intro-text {
-    width: 70%;
-    font-size: 20px;
-    line-height: 1.5em;
-    padding: 35px;
-  }
-
-  .subtitle {
-    padding: 35px;
-  }*/
 
   .textSection {
     /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
