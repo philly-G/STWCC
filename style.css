@@ -105,7 +105,7 @@ li.nav a:hover {
   line-height: 60px;
 }
 
-/* Flexbox container for subtitle and intro text (designed for mobile first) */
+/* Flexbox container for title and intro text (designed for mobile first) */
 .flex-container {
   width: 90%;
   margin: 0 auto;
@@ -119,16 +119,22 @@ li.nav a:hover {
   align-items: center;
 }
 
-/* Left box under title (designed for mobile first) */
+/* Left box (designed for mobile first) */
 .subtitle {
-  padding: 15px;
+  padding: 20px;
   margin: 5px;
   flex-grow: 1;
-  /*border-style: dotted;*/
-  background-color: #0d9c90;
+  text-align: center;
+  background-color: #0169E1;
+  color: white;
+  padding: 5px;
+  font-size: 30px;
+  letter-spacing: 10px;
+  line-height: 60px;
+   /*border-style: dotted;*/
 }
 
-/* Right box under title (designed for mobile first) */
+/* Right box (designed for mobile first) */
 .intro-text {
   padding: 15px;
   margin: 5px;
@@ -387,16 +393,6 @@ p.instructions {
     height: 75%;
   }
 
-  .title {
-    top: 10%;
-    padding: 0 60px;
-    margin: 10% 20.5%;
-    width: 50%;
-    font-size: 40px;
-    line-height: 100px;
-    position: absolute;
-    
-  }
 
   .flex-container {
     flex-wrap: nowrap;
@@ -413,7 +409,10 @@ p.instructions {
     font-size: 20px;
     line-height: 1.5em;
     padding: 35px;
+    flex-grow: 2;
   }
+  
+  .subtitle
 
   .textSection {
     /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
