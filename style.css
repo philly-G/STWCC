@@ -151,6 +151,18 @@ li.nav a:hover {
 /* Add more images here for more scrolling! */
 
 /******************************************************/
+/***************** CSS FOR ABOUT.HTML *****************/
+/******************************************************/
+
+/* Add a container for content in the about page */
+.about-container {
+  box-sizing: border-box;
+  width: 90%;
+  margin: 100px 60px 100px 60px;
+  padding: 0.5em 0;
+}
+
+/******************************************************/
 /************** CSS FOR TAKE-ACTION.HTML **************/
 /******************************************************/
 
@@ -304,17 +316,7 @@ p.instructions {
   color: white;
 }
 
-/******************************************************/
-/***************** CSS FOR ABOUT.HTML *****************/
-/******************************************************/
 
-/* Add a container for content in the about page */
-.about-container {
-  box-sizing: border-box;
-  width: 90%;
-  margin: 100px 60px 100px 60px;
-  padding: 0.5em 0;
-}
 
 /******************************************************/
 /********** CHANGE CSS BASED ON SCREEN SIZE ***********/
