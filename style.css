@@ -87,7 +87,6 @@ li.nav a:hover {
   background-size: auto;
   background-color: #0d9c90;
   /*border-style: groove; /*Uncomment to see the outline of the container*/
-  border-color: #0169E1;
 }
 
 /* Flexbox container for title and intro text (designed for mobile first) */
