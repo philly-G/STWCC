@@ -90,21 +90,6 @@ li.nav a:hover {
   border-color: #0169E1;
 }
 
-/* Title of the page */
-.title {
-  position: absolute;
-  top: 0;
-  width: 75%;
-  margin: 10% 11%;
-  text-align: center;
-  background-color: #0169E1;
-  color: white;
-  padding: 5px;
-  font-size: 30px;
-  letter-spacing: 10px;
-  line-height: 60px;
-}
-
 /* Flexbox container for title and intro text (designed for mobile first) */
 .flex-container {
   display: flex;
@@ -144,8 +129,8 @@ li.nav a:hover {
   padding: 6%;
   margin: 2%;
   flex-grow: 2;
-  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
   background-color: #0d9c90;
+  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
 /*-----------TEXT SCROLLING SECTIONS-----------*/
