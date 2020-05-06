@@ -158,7 +158,7 @@ li.nav a:hover {
 .about-container {
   /*box-sizing: border-box;*/ /*Ken says this is duplicative, it's defined for the html tag earlier */
   width: 90%;
-  margin: 100px 60px 100px 60px;
+  margin: 100px 60px 100px 60px; /*Ken suggests breaking this out to margin-top, margin-bottom, etc. to make it easier for students to know which value they are changing */
   padding: 0.5em 0;
 }
 
