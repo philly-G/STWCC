@@ -1,37 +1,46 @@
-Welcome to Glitch
-=================
+# Activist Toolkit Project
 
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
+This is a place for you to start building your personal project in week 2.
 
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
+## Project Requirements
+You will:
+- Build a multipage website using HTML, CSS, and JavaScript.
+- Include a top navigation bar.
+- Use CSS and background image properties to create a parallax scroll effect on the homepage of your website.
+- Use the DOM, functions, event listeners, and JavaScript events to create an action item checklist.
+- Use flexbox and media rules to create a responsive website.
+- Customize the look and feel of your site through colors, images, and  fonts using CSS. 
+- Use comments to describe your code.
 
-Find out more [about Glitch](https://glitch.com/about).
 
 
-Your Project
-------------
+## Extensions
+You can extend your project further by:
+- Customizing the CSS of your site. 
+- Adding accessibility features to your website. 
+- Adding a resources page where your audience can get more information. 
+- Adding social media buttons so your audience can spread the word. 
+- Adding additional media like videos, audio, image galleries, etc. to enhance your message.
+- Adding user input so your audience can add their own action items. 
 
-### ← README.md
 
-That's this file, where you can tell people what your cool website does and how you built it.
+# Starter Code File Overview
+Your full activity instructions are in HQ, but here's a little cheat-sheet of the files in this project:
 
-### ← index.html
+## ← index.html
+This is your homepage. It should be the first page that you work on.
 
-Where you'll write the content of your website. 
+## ← about.html
+This will be your about page. 
 
-### ← style.css
+## ← take-action.html
+This will hold your action item checklist and action description.
 
-CSS files add styling rules to your content.
+## ← script.js
+Later this week, you'll edit this file to create your checklist.
 
-### ← script.js
+## ← styles.css
+The file for your styles! We've already included a lot of them for you, but you should customize it as you want. 
 
-If you're feeling fancy you can add interactivity to your site with JavaScript.
-
-### ← assets
-
-Drag in `assets`, like images or music, to add them to your project
-
-Made by [Glitch](https://glitch.com/)
--------------------
-
-\ ゜o゜)ノ
+## ← extra.css
+This is a file for additional CSS that we will add later in the week. It doesn't link to your HTML and any changes that you make in this file will **NOT** show up.
