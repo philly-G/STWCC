@@ -12,8 +12,8 @@ html {
   font-family: "Roboto", sans-serif; /* Change this to your font */
   line-height: 1.5em;
   margin: 0em;
-  color: white;
-  background-color: #0d9c90;
+  color: #0D38D3;
+  background-color: #43d6b9ff;
   box-sizing: border-box;
 }
 
@@ -21,16 +21,17 @@ h1 {
   letter-spacing: 5px;
   font-size: 50px; 
   font-family: "Roboto Mono", sans-serif; /* Change this to your font */
-  color: white;
+  color: #0D38D3;
   text-align: center;
 }
 
 h2 {
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   font-size: 25px; 
   font-family: "Roboto Mono", sans-serif; /* Change this to your font */
-  color: white;
+  color: #0D38D3;
   text-align: center;
+  line-height: 1.3em;
 }
 
 /************************************************/
@@ -41,7 +42,7 @@ ul.nav-bar {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #0D38D3;
+  background-color: #43d6b9ff;
 }
 
 li.nav {
@@ -50,10 +51,10 @@ li.nav {
 
 li.nav a {
   display: block;
-  color: white;
+  color: #0D38D3;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
+  text-decoration: Uppercase;
 }
 
 /* Change the backgroung color to a lighter blue on hover */
@@ -74,7 +75,7 @@ li.nav a:hover {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #0d9c90;
+  background-color: #43d6b9ff;
   background-size: cover;
   min-height: 80%; /*Adjust the gap between sections*/
 
@@ -88,7 +89,7 @@ li.nav a:hover {
   background-image: url("https://cdn.glitch.com/2c28e6b4-effc-4ae8-a743-98dc016a18bb%2Fclassroom.jpg?v=1589139561720");
   min-height: 100%;
   background-size: auto;
-  background-color: #0d9c90;
+  background-color: #43d6b9ff;
   /*border-style: dotted; /*Uncomment to see the outline of the container*/
 }
 
@@ -100,7 +101,7 @@ li.nav a:hover {
   position: absolute;
   padding: 5px;
   align-items: center;
-  top: 25%;
+  top: 50%;
   left: 10%;
   right: 10%;
 
@@ -109,17 +110,15 @@ li.nav a:hover {
   justify-content: center;
   align-items: center;
 
-  background-color: #0169E1;
+  background-color: #0D38D3;
 }
 
 /* Left box (designed for mobile first) */
 .title {
   padding: 4%;
   margin: 2%;
-  /*flex-grow: 1;*/ /*Ken says these aren't needed*/
-
   text-align: center;
-  color: white;
+  color: #43d6b9ff;
   font-size: 50px;
   letter-spacing: 10px;
   line-height: 60px;
@@ -128,16 +127,19 @@ li.nav a:hover {
 
 /* Right box (designed for mobile first) */
 .intro-text {
-  padding: 6%;
+  padding: 4%;
   margin: 2%;
-  /*flex-grow: 2;*/ /*Ken says these aren't needed*/
-  background-color: #0d9c90;
+  font-size: 20px;
+  color: #0D38D3;
+  line-height: 1.4em;
+  text-align: center;
+  background-color: #43d6b9ff;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
 /*-----------TEXT SCROLLING SECTIONS-----------*/
 .textSection {
-  background-color: #0d9c90;
+  background-color: #43d6b9ff;
   padding: 20px 45px;
   margin: 35px;
 }
@@ -193,6 +195,8 @@ li.nav a:hover {
 
   .flex-container {
     flex-wrap: nowrap;
+    left: 25%;
+  right: 25%;
   }
 
   /*------------take-action.html------------*/
