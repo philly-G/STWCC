@@ -163,11 +163,11 @@ li.nav a:hover {
 }
 
 .image-three {
-  background-image: url("https://cdn.glitch.com/2c28e6b4-effc-4ae8-a743-98dc016a18bb%2Fbros.jpg?v=1589139471932");
+  background-image: url("https://cdn.glitch.com/2c28e6b4-effc-4ae8-a743-98dc016a18bb%2Fgirl.jpg?v=1589139471577");
 }
 
 .image-four {
-  background-image: url("https://cdn.glitch.com/2c28e6b4-effc-4ae8-a743-98dc016a18bb%2Fgirl.jpg?v=1589139471577");
+  background-image: url("https://cdn.glitch.com/2c28e6b4-effc-4ae8-a743-98dc016a18bb%2Fmask.jpg?v=1589139471808");
 }
 
 /* Add more images here for more scrolling! */
@@ -212,7 +212,7 @@ li.nav a:hover {
 
   /*------------take-action.html------------*/
   .flex-container-action {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
 
   .left-container {

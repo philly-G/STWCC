@@ -26,7 +26,7 @@
   width: 90%;
 
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
@@ -149,4 +149,67 @@ p.instructions {
 .deleteButton:hover {
   background-color: #f4364c;
   color: white;
+}
+
+@media only screen and (max-width: 700px) {
+  /*------------index.html------------*/
+  .main-message,
+  .image-one,
+  .image-two,
+  .image-three,
+  .image-four {
+    background-attachment: scroll;
+  }
+}
+
+.flex-container {
+  flex-wrap: wrap;
+}
+
+/*------------take-action.html------------*/
+.flex-container-action {
+  flex-wrap: wrap;
+}
+
+/* IF THE SCREEN IS ~~1250 OR MORE~~ IMPLEMENT THESE RULES */
+@media only screen and (min-width: 1250px) {
+  h3 {
+    font-size: 35px;
+  }
+
+  /*------------index.html------------*/
+  .main-message,
+  .image-one,
+  .image-two,
+  .image-three,
+  .image-four {
+    background-attachment: fixed;
+  }
+
+  .main-message {
+    height: 75%;
+  }
+
+  .textSection {
+    margin: 1.5% 15%;
+    font-size: 20px;
+    line-height: 1.5em;
+    /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
+  }
+
+  /*------------take-action.html------------*/
+  .flex-container-action {
+    flex-wrap: nowrap;
+  }
+
+  #list-container {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px 20px 40px 40px;
+  }
+
+  .left-container {
+    width: 50%;
+    margin-right: 10%;
+  }
 }
