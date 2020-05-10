@@ -8,7 +8,7 @@
 body,
 html {
   height: 100%;
-  font-size: 15px;
+  font-size: 20px;
   font-family: "Roboto", sans-serif; /* Change this to your font */
   line-height: 1.5em;
   margin: 0em;
@@ -49,6 +49,7 @@ ul.nav-bar {
 
 li.nav {
   float: right;
+  font-size: 15px;
 }
 
 li.nav a {
