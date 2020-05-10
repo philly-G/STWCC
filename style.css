@@ -85,7 +85,7 @@ li.nav a:hover {
   background-repeat: no-repeat;
   background-color: #43d6b9ff;
   background-size: cover;
-  min-height: 80%; /*Adjust the gap between sections*/
+  min-height: 100%; /*Adjust the gap between sections*/
 
   /*Creates the scrolling effect*/
   background-attachment: fixed;
@@ -150,6 +150,7 @@ li.nav a:hover {
   background-color: #0D38D3;
   padding: 20px 45px;
   margin: 35px;
+  text-align: center;
 }
 
 /*-----------IMAGES-----------*/
@@ -182,7 +183,9 @@ li.nav a:hover {
   /*------------index.html------------*/
   .main-message,
   .image-one,
-  .image-two {
+  .image-two,
+  .image-three,
+  .image-four {
     background-attachment: scroll;
   }
 }
@@ -204,7 +207,7 @@ li.nav a:hover {
   .flex-container {
     flex-wrap: nowrap;
     left: 25%;
-  right: 25%;
+    right: 25%;
   }
 
   /*------------take-action.html------------*/
@@ -235,7 +238,9 @@ li.nav a:hover {
   /*------------index.html------------*/
   .main-message,
   .image-one,
-  .image-two {
+  .image-two,
+  .image-three,
+  .image-four {
     background-attachment: fixed;
   }
 
