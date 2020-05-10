@@ -19,13 +19,13 @@ html {
 
 h1 {
   letter-spacing: 5px;
-  font-size: 25px; 
+  font-size: 50px; 
   font-family: "Roboto Mono", sans-serif; /* Change this to your font */
   color: white;
   text-align: center;
 }
 
-h3 {
+h2 {
   letter-spacing: 5px;
   font-size: 25px; 
   font-family: "Roboto Mono", sans-serif; /* Change this to your font */
@@ -68,7 +68,9 @@ li.nav a:hover {
 /*-----------PARALLAX SCROLL-----------*/
 .main-message,
 .image-one,
-.image-two {
+.image-two,
+.image-three,
+.image-four {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -83,7 +85,7 @@ li.nav a:hover {
 /*-----------TOP IMAGE + TEXT-----------*/
 /* Container for top image and text - Designed for mobile first */
 .main-message {
-  background-image: url("https://cdn.glitch.com/317b965b-0341-4f80-9657-10080095ce48%2Feniac.jpeg?v=1587416508886");
+  background-image: url("https://cdn.glitch.com/2c28e6b4-effc-4ae8-a743-98dc016a18bb%2Fclassroom.jpg?v=1589139561720");
   min-height: 100%;
   background-size: auto;
   background-color: #0d9c90;
@@ -96,7 +98,7 @@ li.nav a:hover {
 
   margin: 0 auto;
   position: absolute;
-  padding: 10px;
+  padding: 5px;
   align-items: center;
   top: 25%;
   left: 10%;
@@ -118,7 +120,7 @@ li.nav a:hover {
 
   text-align: center;
   color: white;
-  font-size: 30px;
+  font-size: 50px;
   letter-spacing: 10px;
   line-height: 60px;
   /*border-style: dotted;*/
@@ -142,11 +144,19 @@ li.nav a:hover {
 
 /*-----------IMAGES-----------*/
 .image-one {
-  background-image: url("https://cdn.glitch.com/317b965b-0341-4f80-9657-10080095ce48%2Fmaryjackson.jpg?v=1587408388327");
+  background-image: url("https://cdn.glitch.com/2c28e6b4-effc-4ae8-a743-98dc016a18bb%2Fhands.jpg?v=1589139471777");
 }
 
 .image-two {
-  background-image: url("https://cdn.glitch.com/317b965b-0341-4f80-9657-10080095ce48%2Fcorememory.png?v=1587408710145");
+  background-image: url("https://cdn.glitch.com/2c28e6b4-effc-4ae8-a743-98dc016a18bb%2Flibrary-student.jpg?v=1589139471717");
+}
+
+.image-three {
+  background-image: url("https://cdn.glitch.com/2c28e6b4-effc-4ae8-a743-98dc016a18bb%2Fbros.jpg?v=1589139471932");
+}
+
+.image-four {
+  background-image: url("https://cdn.glitch.com/2c28e6b4-effc-4ae8-a743-98dc016a18bb%2Fgirl.jpg?v=1589139471577");
 }
 
 /* Add more images here for more scrolling! */
