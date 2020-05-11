@@ -37,7 +37,9 @@ h2 {
 /************************************************/
 /*************** CSS FOR NAV BAR ****************/
 /************************************************/
-ul.nav-bar {
+
+/* Style the ul element with the class nav-bar*/
+ul.nav-bar { 
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -47,11 +49,13 @@ ul.nav-bar {
   border-color: #0D38D3;
 }
 
+/* Style the li elements with the class nav */
 li.nav {
   float: right;
   font-size: 15px;
 }
 
+/* Style the a elements in the li class nav */
 li.nav a {
   display: block;
   color: #0D38D3;
@@ -62,7 +66,7 @@ li.nav a {
   font-weight: bold;
 }
 
-/* Change the backgroung color to a lighter blue on hover */
+/* Style the a elements in the li class nav when the mouse is hovering */
 li.nav a:hover {
   background-color: #0D38D3;
   color: #43d6b9ff;
