@@ -72,7 +72,6 @@ li.nav a:hover {
 /************** CSS FOR INDEX.HTML **************/
 /************************************************/
 
-
 /*-----------TOP IMAGE + TEXT-----------*/
 /* Container for top image and text - Designed for mobile first */
 .main-message {
@@ -107,7 +106,7 @@ li.nav a:hover {
   flex-wrap: nowrap; /* Don’t wrap the flex items */
   justify-content: center; /* Justify the flex items to the center */
   align-items: center; /* Align the flex items to the center */
-  
+
   background-color: #0D38D3;
 
   margin-top: 0;
@@ -138,11 +137,14 @@ li.nav a:hover {
 .intro-text {
   padding: 4%;
   margin: 2%;
-  font-size: 20px;
-  color: #0D38D3;
-  line-height: 1.4em;
   text-align: center;
-  background-color: #43d6b9ff;
+  color: #0D38D3; /* Add the color of your font */
+  background-color: #43d6b9ff; /* Add your own background color */
+  font-size: 20px; /* Add your font size*/
+  letter-spacing: 10px; /* Adds space between letters */
+  line-height: 1.4em; /* Adds space between lines */
+  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
+
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
@@ -172,8 +174,6 @@ li.nav a:hover {
 }
 
 /* Add more images here for more scrolling! */
-
-
 
 /******************************************************/
 /***************** CSS FOR EXTENSIONS *****************/
