@@ -100,7 +100,7 @@ li.nav a:hover {
   background-attachment: fixed;
 }
 
-/* Flexbox container for title and intro text (designed for mobile first) */
+/* Flexbox container for title and intro text */
 .flex-container {
   display: flex; /* Set the flexbox display */
   flex-direction: row; /* Configure the flex items to row */
@@ -122,7 +122,7 @@ li.nav a:hover {
   right: 10%;
 }
 
-/* Left box (designed for mobile first) */
+/* Left box */
 .title {
   padding: 4%;
   margin: 2%;
@@ -131,10 +131,10 @@ li.nav a:hover {
   font-size: 50px;
   letter-spacing: 10px;
   line-height: 60px;
-  /*border-style: dotted;*/
+  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
-/* Right box (designed for mobile first) */
+/* Right box */
 .intro-text {
   padding: 4%;
   margin: 2%;
