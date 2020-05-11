@@ -102,7 +102,13 @@ li.nav a:hover {
 
 /* Flexbox container for title and intro text (designed for mobile first) */
 .flex-container {
-  display: flex;
+  display: flex; /* Set the flexbox display */
+  flex-direction: row; /* Configure the flex items to row */
+  flex-wrap: nowrap; /* Don’t wrap the flex items */
+  justify-content: center; /* Justify the flex items to the center */
+  align-items: center; /* Align the flex items to the center */
+  
+  background-color: #0D38D3;
 
   margin-top: 0;
   margin-bottom: 0;
@@ -114,13 +120,6 @@ li.nav a:hover {
   top: 50%;
   left: 10%;
   right: 10%;
-
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-
-  background-color: #0D38D3;
 }
 
 /* Left box (designed for mobile first) */
