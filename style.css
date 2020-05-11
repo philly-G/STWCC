@@ -104,7 +104,10 @@ li.nav a:hover {
 .flex-container {
   display: flex;
 
-  margin: 0 auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
   position: absolute;
   padding: 5px;
   align-items: center;
