@@ -2,6 +2,13 @@
 /***************** CSS FOR ABOUT.HTML *****************/
 /******************************************************/
 
+.page-header-about {
+  width: 100%;
+  position: absolute;
+  text-transform: uppercase;
+  background-color: #0D38D3;
+}
+
 /* Add a container for content in the about page */
 .about-container {
   width: 90%;

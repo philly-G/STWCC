@@ -145,7 +145,7 @@ li.nav a:hover {
   color: #0D38D3; /* Add the color of your font */
   background-color: #43d6b9ff; /* Add your own background color */
   font-size: 20px; /* Add your font size*/
-  letter-spacing: 10px; /* Adds space between letters */
+  letter-spacing: 2px; /* Adds space between letters */
   line-height: 1.4em; /* Adds space between lines */
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 
