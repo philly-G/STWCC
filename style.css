@@ -161,9 +161,12 @@ li.nav a:hover {
 }
 
 /*-----------IMAGES-----------*/
-.image-one {
-  background-image: url("https://cdn.glitch.com/2c28e6b4-effc-4ae8-a743-98dc016a18bb%2Fhands.jpg?v=1589139471777");
 
+.image-one,
+.image-two,
+.image-three,
+.image-four {
+  
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -176,18 +179,14 @@ li.nav a:hover {
   
 }
 
+
+.image-one {
+  background-image: url("https://cdn.glitch.com/2c28e6b4-effc-4ae8-a743-98dc016a18bb%2Fhands.jpg?v=1589139471777");
+
+}
+
 .image-two {
   background-image: url("https://cdn.glitch.com/2c28e6b4-effc-4ae8-a743-98dc016a18bb%2Flibrary-student.jpg?v=1589139471717");
-
-  position: relative;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: #43d6b9ff;
-  background-size: cover;
-  min-height: 100%; /*Adjust the gap between sections*/
-
-  /*Creates the scrolling effect*/
-  background-attachment: fixed;
 }
 
 .image-three {
