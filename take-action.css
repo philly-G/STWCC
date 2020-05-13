@@ -20,7 +20,7 @@
   position: absolute;
   padding: 0.5em 0;
   align-items: center;
-  top: 5%;
+
   left: 5%;
   right: 5%;
 
@@ -29,8 +29,8 @@
 
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: top;
-  align-items: center;
+  justify-content: center;
+  align-items: start;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
