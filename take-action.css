@@ -38,8 +38,10 @@
 .action-info-container {
   width: 50%;
   margin-right: 10%;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   padding: 35px;
-  margin: 5%;
   font-size: 16px;
   flex-grow: 1;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
