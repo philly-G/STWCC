@@ -45,7 +45,7 @@
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
-/* Right box under title; item in .flex-container (designed for mobile first) */
+/* Right box under title; item in .flex-container */
 .action-list-container {
   padding: 35px;
   margin: 5%;
@@ -54,7 +54,7 @@
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
-/* Holds all elements related to the action item list; inside the right container */
+/* Holds all elements related to the action item list; inside the action-list-container */
 #checklist {
   background-color: white;
   border-radius: 15px;
@@ -112,7 +112,7 @@ p.instructions {
   border-color: #43d6b9ff;
   border-style: solid;
   border-width: 2px;
-  top: 12px;
+  top: 15px;
   left: 13px;
   height: 10px;
   width: 10px;
