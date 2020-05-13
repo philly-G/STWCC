@@ -34,7 +34,7 @@
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
-/* Left box under title; item in .flex-container (designed for mobile first) */
+/* Left box under title; item in .flex-container */
 .action-info-container {
   width: 50%;
   margin-right: 10%;
