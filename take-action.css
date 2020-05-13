@@ -45,6 +45,10 @@
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
+.action-info-container img{
+  width: 100%;
+}
+
 /* Right box under title; item in .flex-container */
 .action-list-container {
   padding: 35px;
