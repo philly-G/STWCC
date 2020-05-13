@@ -77,7 +77,7 @@
 }
 
 /* Intructions inside the list container */
-p.instructions {
+#instructions {
   font: 14px "Roboto", sans-serif;
   text-align: center;
   font-style: italic;
