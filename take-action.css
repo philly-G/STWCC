@@ -73,7 +73,7 @@
   text-align: center;
   color: #0D38D3;
   letter-spacing: 1px;
-  border-style: dotted;
+  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
 /* Intructions inside the list container */
@@ -82,7 +82,7 @@ p.instructions {
   text-align: center;
   font-style: italic;
   color: #0D38D3;
-  border-style: dotted;
+  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
   
 }
 
@@ -102,7 +102,7 @@ p.instructions {
   transition: 0.2s;
   width: 85%;
   color: black;
-  border-style: dotted;
+  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
 /* Styling for the check squares added at the beginning of each list item */
