@@ -64,6 +64,7 @@
   padding-left: 40px;
   border-style: solid;
   border-color: #43d6b9ff;
+  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
 
@@ -72,6 +73,7 @@
   text-align: center;
   color: #0D38D3;
   letter-spacing: 1px;
+  border-style: dotted;
 }
 
 /* Intructions inside the list container */
@@ -80,6 +82,8 @@ p.instructions {
   text-align: center;
   font-style: italic;
   color: #0D38D3;
+  border-style: dotted;
+  
 }
 
 /* The div container for the unordered action item list */
@@ -98,6 +102,7 @@ p.instructions {
   transition: 0.2s;
   width: 85%;
   color: black;
+  border-style: dotted;
 }
 
 /* Styling for the check squares added at the beginning of each list item */
