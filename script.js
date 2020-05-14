@@ -1,57 +1,51 @@
  
+
 /************************************************/
-/************ STEP 1: ADD CHECKLIST *************/
-/**************** FUNCTIONALITY *****************/
+/********* ADD CHECKLIST FUNCTIONALITY **********/
 /************************************************/
 
 /* GOAL: Click on a list item to mark it checked */
 
 var fullItemList = document.getElementById("my-list");
-fullItemList.addEventListener(
-  "click",
-  function(event) {
-    //this is a function expression - it allows us to create a function inside the event listener
-    if (event.target.tagName == "LI") {
-      //find out which element triggered a specified event
-      event.target.classList.toggle("all-done");
-    }
-  },
-  false
-);
+fullItemList.addEventListener("click", checkOffItem, false);
 
-/*
-classlist.toggle()
-Toggles between a class name for an element.
+function checkOffItem(clicked) {
+  //find out which element triggered a specified event
+  if (clicked.target.tagName == "LI") {
+    //apply the CSS rule set outlined in .all-done if condition is met
+    clicked.target.classList.toggle("all-done");
+  }
+}
 
-The first parameter removes the specified class from an element, and returns false.
-If the class does not exist, it is added to the element, and the return value is true.
-
-The optional second parameter is a Boolean value that forces the class to be added or removed, regardless of whether or not it already existed. For example:
-
-Remove a class: element.classList.toggle("classToRemove", false);
-Add a class: element.classList.toggle("classToAdd", true);
-
-*/
 
 /************************************************/
-/********* STEP 2: CREATE DELETE BUTTON *********/
+/****************** TRY A LOOP ******************/
+/************************************************/
+
+/* Add code to practice loops here */
+/* Be sure to delete them or comment them out when you are finished with that section */
+
+
+/************************************************/
+/************* CREATE DELETE BUTTON *************/
 /************************************************/
 
 /* GOAL: Create a delete button [x] and append (or attach) it to each list item */
 
-var myNodelist = document.getElementsByClassName("action-li");
-var i;
-for (i = 0; i < myNodelist.length; i++) {
-  var span = document.createElement("SPAN");
-  var txt = document.createTextNode("\u00D7");
-  span.className = "deleteButton";
-  span.appendChild(txt);
-  myNodelist[i].appendChild(span);
+var actionListItem = document.getElementsByClassName("action-li");
+
+for (var i = 0; i < 3; i++) {
+  var newSpan = document.createElement("span");
+  var x = document.createTextNode("X");
+  newSpan.appendChild(x);
+  actionListItem[i].appendChild(newSpan);
+  
+  newSpan.className = "deleteButton";
 }
 
+
 /************************************************/
-/************ STEP 3: ADD AN ACTION *************/
-/************** TO DELETE BUTTON ****************/
+/*************** ADD INTERACTION ****************/
 /************************************************/
 
 /* GOAL: Click on a close button to hide the current list item */
@@ -62,9 +56,8 @@ for (var i = 0; i < deleteBtn.length; i++) {
   deleteBtn[i].addEventListener("click", closeListItem);
 }
 
-function closeListItem(){
-  var div = this.parentElement;
-    div.style.display = "none";
+function closeListItem() {
+  this.parentElement.style.display = "none";
 }
 
 
