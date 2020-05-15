@@ -92,16 +92,19 @@
 }
 
 /* The div container for the unordered action item list */
-#my-list {
+.my-list {
   padding: 10px 0 0 0;
   margin: 0;
   font-size: 10pt;
 }
 
 /* Styling for individual action list items */
-#my-list li {
+.my-list li {
   cursor: pointer;
-  padding: 8px 5px 8px 35px;
+  padding-top: 8px;
+  padding-right: 20px;
+  padding-bottom: 8px; 
+  padding-left: 35px;
   position: relative;
   list-style-type: none;
   transition: 0.2s;
@@ -111,12 +114,13 @@
 }
 
 /* Styling for the check squares added at the beginning of each list item */
-#my-list li::before {
+.my-list li::before {
   content: "";
   position: absolute;
   border-color: #43d6b9ff;
   border-style: solid;
   border-width: 2px;
+  
   top: 15px;
   left: 13px;
   height: 10px;
@@ -124,24 +128,24 @@
 }
 
 /* Change background color when cursor hovers over list items */
-#my-list li:hover {
+.my-list li:hover {
   background: #f3f3f3;
   color: #0D38D3;
 }
 
 /* Change check square color when cursor hovers over */
-#my-list li:hover::before {
+.my-list li:hover::before {
   border-color: #0D38D3;
   border-style: solid;
 }
 
 /* When marked complete (i.e. clicked on) add strikethrough */
-#my-list li.all-done {
+.my-list li.all-done {
   text-decoration: line-through;
 }
 
 /* Add a "checked" mark when clicked on */
-#my-list li.all-done::before {
+.my-list li.all-done::before {
   content: "";
   position: absolute;
   border-color: #0D38D3;
@@ -159,9 +163,11 @@
   position: absolute;
   right: 0;
   top: 0;
-  padding-top: 6px 5px 6px 5px;
+  padding-top: 6px;
   padding-bottom: 6px;
-  padding
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-left: 5px;
   background-color: #43d6b9ff;
   color: white;
 }
