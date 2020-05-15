@@ -6,7 +6,7 @@
 
 /* GOAL: Click on a list item to mark it checked */
 
-var fullItemList = document.getElementByClass("my-list");
+var fullItemList = document.getElementById("my-list");
 fullItemList.addEventListener("click", checkOffItem, false);
 
 function checkOffItem(clicked) {
