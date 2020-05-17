@@ -141,7 +141,7 @@ li.nav a:hover {
   font-size: 50px;
   letter-spacing: 10px;
   line-height: 60px;
-  border-style: dotted; /*Uncomment to see the outline of the container*/
+  /*border-style: dotted; /*Uncomment to see the outline of the container*/
 }
 
 /* Right box */

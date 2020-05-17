@@ -41,7 +41,10 @@
   margin-left: 0;
   margin-top: 5%;
   margin-bottom: 5%;
-  padding: 35px;
+  padding-right: 35px;
+  padding-left: 35px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   font-size: 16px;
   flex-grow: 2;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
