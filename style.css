@@ -84,7 +84,9 @@ li.nav a:hover {
 /*-----------TOP IMAGE + TEXT-----------*/
 /* Container for top image and text - Designed for mobile first */
 .main-message {
+  
   background-image: url("https://cdn.glitch.com/2c28e6b4-effc-4ae8-a743-98dc016a18bb%2Fclassroom.jpg?v=1589139561720");
+  
   min-height: 100%;
   background-size: auto;
   background-color: #0D38D3;
