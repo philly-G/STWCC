@@ -54,6 +54,10 @@
   width: 100%;
 }
 
+#script {
+  color: #43d6b9ff;
+}
+
 /* Right box under title; item in .flex-container */
 .action-list-container {
   width: 75%;
