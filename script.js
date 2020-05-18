@@ -96,8 +96,8 @@ if (deleteBtns.length > 0) {
 }
 
 // Function for the forEach loop that holds the event listener
-function listenForDeleteClicks(deleteBtn) {
-  deleteBtn.addEventListener("click", closeListItem);
+function listenForDeleteClicks(eachDeleteBtn) {
+  eachDeleteBtn.addEventListener("click", closeListItem);
 }
 
 // Function for event listener
