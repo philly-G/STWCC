@@ -87,19 +87,20 @@ if (actionListItem.length > 0) {
 
 /* GOAL: Click on a close button to hide the current list item */
 
+// Create an array from our delete buttons and store them in a variable
 var deleteBtns = Array.from(document.getElementsByClassName("deleteButton"));
 
+// Function for the forEach loop that holds the event listener
 function listenForDeleteClicks(deleteBtn) {
   deleteBtn.addEventListener("click", closeListItem);
 }
 
-//Function for event listener
+// Function for event listener
 function closeListItem() {
   this.parentElement.style.display = "none";
 }
 
-deleteBtns.forEach(listenForDeleteClicks);
-
+// forEach loop
 if (deleteBtns.length > 0) {
   deleteBtns.forEach(listenForDeleteClicks);
 }
