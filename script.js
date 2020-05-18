@@ -6,11 +6,13 @@
 
 /* GOAL: Click on a list item to mark it checked */
 
+//Store element with the id "my-list" in a variable
 var fullItemList = document.getElementById("my-list");
-/*fullItemList.addEventListener("click", checkOffItem, false);*/
 
-//Ken: Added a safety check here, we have script.js on pages that don't have a my-list
-fullItemList && fullItemList.addEventListener("click", checkOffItem, false);
+if (fullItemList) {
+  // add event listener
+  fullItemList.addEventListener("click", checkOffItem, false);
+}
 
 function checkOffItem(clicked) {
   //find out which element triggered a specified event
@@ -63,16 +65,20 @@ animals.forEach(sayHello);
 
 /* GOAL: Create a delete button [x] and append (or attach) it to each list item */
 
-var actionListItem = document.getElementsByClassName("action-li");
+var actionListItem = Array.from(document.getElementsByClassName("action-li"));
 
-for (var i = 0; i < actionListItem.length; i++) {
+function addDeleteButton(actionListItem) {
   var newSpan = document.createElement("span");
   var x = document.createTextNode("X");
   newSpan.appendChild(x);
-  actionListItem[i].appendChild(newSpan);
-  
+  actionListItem.appendChild(newSpan); 
   newSpan.className = "deleteButton";
 }
+
+if (actionListItem.length > 0) {
+  actionListItem.forEach(addDeleteButton);
+}
+
 
 
 /************************************************/
@@ -81,6 +87,24 @@ for (var i = 0; i < actionListItem.length; i++) {
 
 /* GOAL: Click on a close button to hide the current list item */
 
+var deleteBtns = Array.from(document.getElementsByClassName("deleteButton"));
+
+function listenForDeleteClicks(deleteBtn) {
+  deleteBtn.addEventListener("click", closeListItem);
+}
+
+//Function for event listener
+function closeListItem() {
+  this.parentElement.style.display = "none";
+}
+
+deleteBtns.forEach(listenForDeleteClicks);
+
+if (deleteBtns.length > 0) {
+  deleteBtns.forEach(listenForDeleteClicks);
+}
+
+/*
 var deleteBtn = document.getElementsByClassName("deleteButton");
 
 for (var i = 0; i < deleteBtn.length; i++) {
@@ -90,6 +114,6 @@ for (var i = 0; i < deleteBtn.length; i++) {
 function closeListItem() {
   this.parentElement.style.display = "none";
 }
-
+*/
 
 
