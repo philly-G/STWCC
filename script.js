@@ -22,11 +22,39 @@ function checkOffItem(clicked) {
 
 
 /************************************************/
-/****************** TRY A LOOP ******************/
+/*************** PRACTICE ARRAYS ****************/
 /************************************************/
 
 /* Add code to practice loops here */
 /* Be sure to delete them or comment them out when you are finished with that section */
+
+/* Create a array to store two animals and a number */
+var animals = ['panda', 'hippo', 7];     
+
+/* Print all the animals to the console*/
+console.log(animals);
+
+/* Create an array using Array.from */
+var myLetters = Array.from('panda');
+console.log(myLetters);
+
+
+/* Print each animals individually to the console using its index position
+console.log(animals[0]);
+console.log(animals[1]);
+console.log(animals[2]);
+*/
+
+/* .length */
+console.log('Length = '+ animals.length);
+
+/* forEach */
+function sayHello(animalItem){
+  console.log('Well, hello there ' + animalItem);
+}
+
+animals.forEach(sayHello);
+
 
 
 /************************************************/
