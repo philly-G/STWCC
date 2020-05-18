@@ -90,6 +90,11 @@ if (actionListItem.length > 0) {
 // Create an array from our delete buttons and store them in a variable
 var deleteBtns = Array.from(document.getElementsByClassName("deleteButton"));
 
+// forEach loop
+if (deleteBtns.length > 0) {
+  deleteBtns.forEach(listenForDeleteClicks);
+}
+
 // Function for the forEach loop that holds the event listener
 function listenForDeleteClicks(deleteBtn) {
   deleteBtn.addEventListener("click", closeListItem);
@@ -100,10 +105,7 @@ function closeListItem() {
   this.parentElement.style.display = "none";
 }
 
-// forEach loop
-if (deleteBtns.length > 0) {
-  deleteBtns.forEach(listenForDeleteClicks);
-}
+
 
 /*
 var deleteBtn = document.getElementsByClassName("deleteButton");
