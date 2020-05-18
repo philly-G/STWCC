@@ -7,7 +7,10 @@
 /* GOAL: Click on a list item to mark it checked */
 
 var fullItemList = document.getElementById("my-list");
-fullItemList.addEventListener("click", checkOffItem, false);
+/*fullItemList.addEventListener("click", checkOffItem, false);*/
+
+//Ken: Added a safety check here, we have script.js on pages that don't have a my-list
+fullItemList && fullItemList.addEventListener("click", checkOffItem, false);
 
 function checkOffItem(clicked) {
   //find out which element triggered a specified event
