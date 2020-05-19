@@ -27,8 +27,7 @@ function checkOffItem(clicked) {
 /*************** PRACTICE ARRAYS ****************/
 /************************************************/
 
-/* Add code to practice loops here */
-/* Be sure to delete them or comment them out when you are finished with that section */
+/* Add code to practice arrays here */
 
 /* Create a array to store two animals and a number */
 var animals = ['panda', 'hippo', 7];     
