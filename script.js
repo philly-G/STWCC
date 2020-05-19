@@ -68,11 +68,11 @@ animals.forEach(sayHello);
 var actionListItem = Array.from(document.getElementsByClassName("action-li"));
 
 function addDeleteButton(actionListItem) {
-  var newSpan = document.createElement("span");
-  var x = document.createTextNode("X");
-  newSpan.appendChild(x);
-  actionListItem.appendChild(newSpan); 
-  newSpan.className = "deleteButton";
+  var newSpan = document.createElement("span");  // Create the new HTML node
+  var x = document.createTextNode("X");          // Create the text node
+  newSpan.appendChild(x);                        // Append or attach the text node to the HTML node for the full HTML element
+  actionListItem.appendChild(newSpan);           // Append or attach the HTML element to each list item
+  newSpan.className = "deleteButton";            // Assign a class to the delete button
 }
 
 if (actionListItem.length > 0) {
@@ -106,17 +106,5 @@ function closeListItem() {
 }
 
 
-
-/*
-var deleteBtn = document.getElementsByClassName("deleteButton");
-
-for (var i = 0; i < deleteBtn.length; i++) {
-  deleteBtn[i].addEventListener("click", closeListItem);
-}
-
-function closeListItem() {
-  this.parentElement.style.display = "none";
-}
-*/
 
 
