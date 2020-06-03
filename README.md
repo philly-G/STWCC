@@ -24,6 +24,17 @@ You can extend your project further by:
 - Adding additional media like videos, audio, image galleries, etc. to enhance your message.
 - Making your website reponsive. *Included - see styles.css and take-action.css*
 
+## Image Attributions
+Homepage
+- Image of young person in classroom. From [Pixabay](https://pixabay.com/photos/education-people-school-child-3189934/) with [Pixabay license](https://pixabay.com/service/license/).
+- Image of hands typing from [#WOCinTech](https://www.flickr.com/photos/wocintechchat/25926572291/) with Creative Commons Attribution licencse.
+- Image of student in library. From [Pixabay](https://pixabay.com/photos/library-study-alone-reading-male-2414380/) with [Pixabay license](https://pixabay.com/service/license/).
+- Image of girl with laptop. From [Pixabay](https://pixabay.com/photos/apple-computer-girl-iphone-laptop-1853337/) with [Pixabay license](https://pixabay.com/service/license/).
+- Image of young person in classroom with mask. From [Pixabay](https://pixabay.com/photos/class-corona-mouth-guard-students-5120412/) with [Pixabay license](https://pixabay.com/service/license/).
+
+Take Action Page
+- Image of hands typing from [#WOCinTech](https://www.flickr.com/photos/wocintechchat/25926572291/) with Creative Commons Attribution licencse.
+
 # Starter Code File Overview
 
 Your full activity instructions are in HQ, but here's a little cheat-sheet of the files in this project:
@@ -56,3 +67,7 @@ This file contains the CSS rule set for about.html.
 ## ← take-action.css
 
 This file contains the CSS rule set for take-action.html.
+
+---
+
+###### *NOTE: This project is adapted from the How To Create a To Do List by W3 Schools*
