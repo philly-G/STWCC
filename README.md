@@ -8,7 +8,7 @@ You will:
 
 - Build a multipage website using HTML, CSS, and JavaScript.
 - Use CSS and background image properties to create a parallax scroll effect on the homepage of your website.
-- Use the DOM, functions, arrays, event listeners, and JavaScript events to create an action item checklist.
+- Use the DOM, event listeners, conditionals, and functions in JavaScript to build a checklist that allows people to mark an item as complete.
 - Use flexbox to layout your website.
 - Customize the look and feel of your site through colors, images, and fonts using CSS.
 - Use comments to describe your code.
@@ -22,7 +22,6 @@ You can extend your project further by:
 - Adding a resources page where your audience can get more information.
 - Adding social media buttons so your audience can spread the word.
 - Adding additional media like videos, audio, image galleries, etc. to enhance your message.
-- Making your website reponsive. *Included - see styles.css and take-action.css*
 
 ## Image Attributions
 Homepage
