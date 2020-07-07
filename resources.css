@@ -17,3 +17,38 @@ h1 {
   text-transform: uppercase;
   background-color: #f4364c;
 }
+
+.container-resources {
+  position: absolute;
+  padding: 0.5em 0;
+  align-items: center;
+
+  left: 5%;
+  right: 5%;
+
+  margin: 5% 0;
+  width: 90%;
+
+}
+
+.resource-list {
+  padding-top: 10px;
+  padding-bottom: 0;
+  padding-right: 0;
+  padding-left: 20px;
+  margin: 0;
+  font-size: 14pt;
+}
+
+/* Styling for individual action list items */
+.resource-list li {
+  cursor: pointer;
+  padding-top: 8px;
+  padding-right: 30px;
+  padding-bottom: 8px;
+  
+  position: relative;
+  width: 85%;
+  color: black;
+  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
+}
