@@ -33,9 +33,13 @@ h2 {
   line-height: 1.3em;
 }
 
-p a{
+a{
   color: #43d6b9ff;
   text-decoration: none;
+}
+
+a:hover {
+  color: #f4364c;
 }
 
 /************************************************/
@@ -72,7 +76,7 @@ li.nav a {
 /* Style the a elements in the li class nav when the mouse is hovering */
 li.nav a:hover {
   background-color: #0D38D3;
-  color: #43d6b9ff;
+  color: #f4364c;
 }
 
 /************************************************/
