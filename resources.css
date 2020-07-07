@@ -1,0 +1,19 @@
+/******************************************************/
+/************** CSS FOR RESOURCES.HTML **************/
+/******************************************************/
+body {
+  background: rgb(13,56,211);
+  background: linear-gradient(39deg, rgba(13,56,211,1) 29%, rgba(67,214,185,1) 71%);
+}
+
+h1 {
+  color: white;
+  
+}
+
+.page-header-action {
+  width: 100%;
+  position: absolute;
+  text-transform: uppercase;
+  background-color: #f4364c;
+}
