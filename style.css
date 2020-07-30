@@ -75,7 +75,7 @@ li.nav a {
 
 /* Style the a elements in the li class nav when the mouse is hovering */
 li.nav a:hover {
-  background-color: black;
+  background-color: floralwhite;
   color: #f4364c;
 }
 
@@ -120,7 +120,7 @@ li.nav a:hover {
   justify-content: center; /* Justify the flex items to the center */
   align-items: center; /* Align the flex items to the center */
 
-  background-color: #0D38D3;
+  background-color: skyblue;
 
   margin-top: 0;
   margin-bottom: 0;
@@ -139,7 +139,7 @@ li.nav a:hover {
   padding: 4%;
   margin: 2%;
   text-align: center;
-  color: #43d6b9ff;
+  color: white;
   font-size: 50px;
   letter-spacing: 10px;
   line-height: 60px;
@@ -151,8 +151,8 @@ li.nav a:hover {
   padding: 4%;
   margin: 2%;
   text-align: center;
-  color: #0D38D3; /* Add the color of your font */
-  background-color: #43d6b9ff; /* Add your own background color */
+  color: black; /* Add the color of your font */
+  background-color: white; /* Add your own background color */
   font-size: 20px; /* Add your font size*/
   letter-spacing: 2px; /* Adds space between letters */
   line-height: 1.4em; /* Adds space between lines */
@@ -163,7 +163,7 @@ li.nav a:hover {
 
 /*-----------TEXT SCROLLING SECTIONS-----------*/
 .text-section {
-  background-color: #0D38D3;
+  background-color: midnightblue;
   padding: 20px 45px;
   margin: 35px;
   text-align: center;
