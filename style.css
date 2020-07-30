@@ -58,7 +58,7 @@ ul.nav-bar {
 
 /* Style the li elements with the class nav */
 li.nav {
-  float: right;
+  float: center;
   font-size: 15px;
 }
 
