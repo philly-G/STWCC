@@ -34,12 +34,12 @@ h2 {
 }
 
 a{
-  color: #43d6b9ff;
+  color: white;
   text-decoration: none;
 }
 
 a:hover {
-  color: #f4364c;
+  color: black;
 }
 
 /************************************************/
@@ -52,7 +52,7 @@ ul.nav-bar {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #43d6b9ff;
+  background-color: skyblue;
   
 }
 
@@ -65,7 +65,7 @@ li.nav {
 /* Style the a elements in the li class nav */
 li.nav a {
   display: block;
-  color: #0D38D3;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -75,7 +75,7 @@ li.nav a {
 
 /* Style the a elements in the li class nav when the mouse is hovering */
 li.nav a:hover {
-  background-color: #0D38D3;
+  background-color: black;
   color: #f4364c;
 }
 
@@ -87,12 +87,12 @@ li.nav a:hover {
 /* Container for top image and text - Designed for mobile first */
 .main-message {
   
-  background-image: url("https://cdn.glitch.com/2c28e6b4-effc-4ae8-a743-98dc016a18bb%2Fclassroom.jpg?v=1589139561720");
+  background-image: url("http://www.namisantaclara.org/wp-content/uploads/2015/09/helping-hand.jpg");
   
   min-height: 100%;
   background-size: auto;
-  background-color: #0D38D3;
-  /*border-style: dotted; /*Uncomment to see the outline of the container*/
+  background-color: white;
+  border-style: dotted; /*Uncomment to see the outline of the container*/
 }
 
 /*-----------PARALLAX SCROLL-----------*/
